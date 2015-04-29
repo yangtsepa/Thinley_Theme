@@ -73,12 +73,10 @@ Version:            v2.01
     margin-bottom: 20px;
     padding: 4px;
     height: auto;
-
-
 }
 
 h1{
-    color: green;
+    color: blue;
     font-family: "roboto"
 }
 
