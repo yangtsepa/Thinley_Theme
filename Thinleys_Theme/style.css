@@ -1,0 +1,302 @@
+/*
+Theme Name:         Bhutan Mountain Journey
+Theme Author:       Thinley Jamtsho
+Theme URL:          http://wwwbhutaninfo.com
+Author URl:         http://thinleyinfo.com
+Version:            v2.01
+*/
+
+#container
+{
+    background-color: #222222;
+    padding: 30px;
+    vertical-align: middle;
+    height: auto;
+}
+
+#header{
+    height: 170px;
+    background: url( 'images/layap.jpg' ) no-repeat;
+    background-color:  #0074a2;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#content{
+    background-color:#ADCAE1;
+    padding: 20px;
+    font-size: 12px;
+    height: auto;
+    align-content: center;
+
+}
+#footer{
+    background-color: #1E6A8D;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+
+}
+#logo{
+    height:100px;
+    width: 100px;
+    border-radius: 5px;
+    background: url("images/logo.jpeg");
+}
+
+#background1{
+    background-color: #1E6A8D;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5px;
+    display: block;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+#navigation{
+    background-color:#005684;
+    font-family: 'Raleway', sans-serif;
+    align-content: center;
+    height: 40px;
+
+}
+#image{
+    float: left;
+}
+#links{
+    background-color: #124964;
+    border-radius: 3px;
+    text-align: center;
+    word-spacing: 3px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 4px;
+    height: auto;
+
+
+}
+
+h1{
+    color: green;
+    font-family: "roboto"
+}
+
+h2{
+    color: #09cafa;
+    font-family:"Century Gothic", sans-serif;
+}
+h3{
+    color: #FF0000;
+    font-family:"Century Gothic", sans-serif;
+}
+h5{
+    color: #0A246A;
+    font-family:"Century Gothic", sans-serif;
+}
+h4{
+    color: #0000ff;
+    font-family:"Century Gothic", sans-serif;
+}
+h6{
+    color: brown;
+    font-family:"Century Gothic", sans-serif;
+}
+/* navigation menus*/
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.site-nav ul:before, .site-nav ul:after {
+    content: ""; display: table;
+}
+.site-nav ul:after {
+    clear:both;
+}
+.site-nav ul {*zoom: 1;}
+.site-nav ul li {
+    list-style: none;
+    float: left;
+}
+
+/*site header menu*/
+.site-header nav ul li {
+    margin-right: 5px;
+}
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited{
+    display: block;
+    padding: 10px 18px;
+    border: 1px solid #BBB;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+
+.site-header nav ul li a:hover{
+    background-color: #124964;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited,
+.site-header nav ul li.current-page-ancestor a:link,
+.site-header nav ul li.current-page-ancestor a:visited
+{
+    font-weight: bold;
+    background-color: #124964;
+    color: floralwhite;
+}
+
+/*footer menu*/
+.site-footer nav ul li{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #036881;
+    color: #0A246A;
+
+}
+
+/*children links*/
+.children-links a:link,
+.children-links a:visited
+{
+    text-decoration: none;
+}
+
+.children-links{
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #007700;
+}
+.children-links ul{
+    float: left;
+}
+
+.children-links li {
+    margin-right: 20px;
+}
+
+.children-links .parent-link{
+    float: left;margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #222222;
+    font-size: 14px;
+    font-weight: bold;
+}
+.children-links .parent-link a:link,
+.children-links .parent-link a:visited{
+    color: #222222;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited{
+    color: #007700;
+    cursor: default;
+}
+
+/*widget decoration*/
+.secondary-column{
+    background-color: #94cde7;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+/*aside style*/
+article.post-aside {
+    font-size: 12px;
+    background-color: #94cde7;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,1);
+    margin-bottom: 10px;
+    background: url(images/headerback.jpg) no-repeat top left;
+    min-height: 30px;
+}
+
+/*link styles*/
+article.post-link {
+    font-size: 12px;
+    background-color: #56b274;
+    color: #0000CC;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*link post format styles*/
+
+article.post-link a{
+    display: block;
+    padding: 5px;
+}
+/*gallery style sheets*/
+article.post-gallery{
+    background-color: #8faf91;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,1);
+    margin-bottom: 10px;
+    align-items: center;
+}
+article.post-gallery h4 {
+    text-align: center;
+}
+
+/*image gallery style sheets*/
+article.post-image{
+    background-color: #eaf2fa;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(0,0,0,1);
+    margin-bottom: 10px;
+}
+/*video style sheets*/
+article.post-video{
+    background-color: #d9d9d9;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/*quote style sheets*/
+article.post-quote{
+    background-color: #a2a2a2;
+    font-size: 12px;
+    padding: 10px;
+    align-content: center;
+    box-shadow: 3px 3px 3px rgba(0,0,0,1);
+    margin-bottom: 10px;
+}
+/*chat style sheets*/
+article.post-chat{
+    background-color: #3e5546;
+    color: #d9d9d9;
+    padding: 10px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.chatfonts{
+    font-size: 14px;
+    margin: 0px;
+    font-style: italic;
+}
+/*standard style sheets*/
+article.post-none{
+    background-color: #43925d;
+    color: #d9d9d9;
+    padding: 10px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.nonefonts{
+    font-size: 14px;
+    margin: 0px;
+    font-style: italic;
+}
+
+.mimi-meta{
+    font-size: 10px;
+    margin: 0px;
+
+}
+
+
